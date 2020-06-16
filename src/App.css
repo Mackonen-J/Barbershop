@@ -1,0 +1,100 @@
+.title { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.filterPrice {
+  padding: 0 0 10px 9%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid gray;
+}
+.cardBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; 
+}
+.header {
+  display: flex;
+  white-space: nowrap; 
+}
+.time { 
+  display: flex;
+  padding: 4px;
+  white-space: nowrap; 
+}
+.cutType {
+  display: flex;
+  padding: 4px;
+  justify-content: flex-start;
+  white-space: nowrap;
+  position: absolute;
+  left: 30%;
+}
+.price {
+  display: flex;
+  justify-self: flex-end;
+  padding: 4px;
+  white-space: nowrap;
+}
+.meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding: 4px;
+  white-space: nowrap; 
+}
+.rating {
+  display: flex;
+  align-items: center; 
+  width: 50%;
+  padding: 4px;
+  white-space: nowrap;
+  position: absolute;
+  left: 30%;
+}
+.rating-0 {
+  display: none;
+}
+.rating-1::before {
+  content: "\2B50";
+}
+.rating-2::before {
+  content: "\2B50\2B50";
+}
+.rating-3::before {
+  content: "\2B50\2B50\2B50";
+}
+.rating-4::before {
+  content: "\2B50\2B50\2B50\2B50";
+}
+.rating-5::before {
+  content: "\2B50\2B50\2B50\2B50\2B50";
+}
+.appointment {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 4px;
+  white-space: nowrap;
+}
+.address {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 4px;
+  white-space: nowrap;  
+}
